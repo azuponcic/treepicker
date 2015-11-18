@@ -27,19 +27,6 @@
 
         });
 
-        $('body').on('click', 'li.foundation-nestedcheckboxlist-item span.collapse-control', function(e) {
-            var $ul = $(this).parent().siblings('ul');
-            if ($ul.children().length !== 0) {
-                $(this).toggleClass('closed');
-                if ($(this).hasClass('closed')) {
-                    //$(this).html('+');
-                } else {
-                    //$(this).html('-');
-                }
-                $(this).parent().siblings('ul').toggle();
-            }
-        });
-
         $('body').on('change', '.coral-Modal input[type="checkbox"]', function(e) {
             var multi = $(this).closest('.coral-Modal').data('pickerMultiselect');
             if (!multi) {
