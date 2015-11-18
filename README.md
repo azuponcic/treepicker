@@ -1,5 +1,7 @@
 # TreePicker Sample Project
 
+This project contains sample code for extending/creating a custom CoralUI widget. This widget is based on the OOTB PathBrowser. To see the widget, create a page using the provided TreePicker template. On the page properties screen you will see a Related Pages field. This field is the treepicker.
+
 This a content package project generated using the AEM Multimodule Lazybones template.
 
 ## Building
