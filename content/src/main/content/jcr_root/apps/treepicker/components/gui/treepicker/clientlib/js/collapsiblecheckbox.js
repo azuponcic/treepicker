@@ -16,17 +16,6 @@
             }
         });
 
-        $('li.foundation-nestedcheckboxlist-item span.collapse-control').each(function(idx, elem) {
-            var $ul = $(elem).parent().siblings('ul');
-            if ($ul.children().length !== 0) {
-                //$(elem).html("-");
-            } else {
-                $(elem).addClass('no-children');
-            }
-
-
-        });
-
         $('body').on('change', '.coral-Modal input[type="checkbox"]', function(e) {
             var multi = $(this).closest('.coral-Modal').data('pickerMultiselect');
             if (!multi) {
