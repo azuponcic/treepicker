@@ -1,0 +1,54 @@
+li.foundation-nestedcheckboxlist-item .collapse-control {
+    font-size: 2em;
+}
+
+.coral-Treepicker-picker .coral-Modal-header .coral-Button--primary {
+    float: right;
+}
+
+.coral-Treepicker-picker {
+    height: 80%;
+    z-index: 1442;
+}
+
+.coral-Treepicker-picker .coral-Modal-title {
+     margin: 0 0 0 23px;
+     text-align: center;
+     line-height: 2em;
+ }
+
+.coral-Treepicker-picker .coral-Modal-body {
+    height: calc(100% - 2.875rem);
+    overflow: auto;
+}
+
+.coral-Treepicker-picker .collapse-control {
+	width:16px;
+	height:16px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	display:inline-block;
+	position:relative;
+	top:8px;
+	background-image:url('../img/icon-arrow-up.png');
+}
+
+.coral-Treepicker-picker .collapse-control.closed {
+	background-image:url('../img/icon-arrow-down.png');
+}
+
+.coral-Treepicker-picker .collapse-control.no-children {
+	background-image:url('../img/icon-arrow-down-inactive.png');
+}
+
+.cq-TreePickerField span.js-coral-validation-error.coral-Icon.coral-Icon--alert.coral-Icon--sizeS {
+    position: absolute;
+    top: -25px;
+    /* left: 0; */
+    right: 0;
+    color: #e14132;
+}
+
+.is-invalid .coral-Checkbox-checkmark, .li-TreePickerField-alert{
+    border-color: #e14132;
+}

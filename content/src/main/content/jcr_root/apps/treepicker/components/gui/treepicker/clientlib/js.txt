@@ -1,0 +1,4 @@
+#base=js
+
+treepicker.js
+collapsiblecheckbox.js
