@@ -1,5 +1,6 @@
 package com.acz.treepicker.datasource;
 
+import com.acz.treepicker.CollapsibleCheckboxResource;
 import com.adobe.granite.ui.components.ds.DataSource;
 import com.day.cq.wcm.api.NameConstants;
 import com.day.cq.wcm.api.Page;

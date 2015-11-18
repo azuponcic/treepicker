@@ -1,4 +1,4 @@
-package com.acz.treepicker.datasource;
+package com.acz.treepicker;
 
 import com.day.cq.commons.jcr.JcrConstants;
 import org.apache.sling.api.resource.SyntheticResource;

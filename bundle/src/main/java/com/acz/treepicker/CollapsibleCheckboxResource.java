@@ -1,4 +1,4 @@
-package com.acz.treepicker.datasource;
+package com.acz.treepicker;
 
 import com.adobe.granite.ui.components.ds.ValueMapResource;
 import org.apache.sling.api.resource.Resource;
